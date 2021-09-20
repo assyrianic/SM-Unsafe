@@ -90,6 +90,6 @@ sp_nativeinfo_t g_Natives[] = {
 	{"Unsafe_GetStrPtr",       Native_Unsafe_GetStrPtr},
 	{"Unsafe_GetCellPtr",      Native_Unsafe_GetCellPtr},
 	{"Unsafe_GetEntityVTable", Native_Unsafe_GetEntityVTable},
-	{"Native_Unsafe_GetFuncFromVTable", Native_Unsafe_GetFuncFromVTable},
+	{"Unsafe_GetFuncFromVTable", Native_Unsafe_GetFuncFromVTable},
 	{NULL,NULL}
 };
