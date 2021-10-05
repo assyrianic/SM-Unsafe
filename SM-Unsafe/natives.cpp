@@ -30,7 +30,7 @@ static cell_t Native_Unsafe_Store(IPluginContext *const pContext, const cell_t p
 	
 	void *const p = ( void* )(params[1]);
 	if( p==nullptr )
-		return value;
+		return 0;
 	
 	const cell_t value = params[3];
 	memcpy(p, &value, bytes);
